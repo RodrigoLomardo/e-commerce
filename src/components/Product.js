@@ -56,7 +56,7 @@ const Product = () => {
           <p className="text-base text-gray-500 -mt-3">{details.description}</p>
           <div className="flex gap-4">
             <div className="w-52 flex items-center justify-between text-gray-500 gap-4 border p-3">
-              <p className="text-sm">Quantity</p>
+              <p className="text-sm">Quantidade</p>
               <div className="flex items-center gap-4 text-sm font-semibold">
                 <button
                   onClick={() => setBaseQty(baseQty === 1 ? baseQty=1: baseQty -1)}

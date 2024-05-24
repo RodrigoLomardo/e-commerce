@@ -11,6 +11,7 @@ import Footer from "./components/Footer.js";
 import Cart from "./pages/Cart.js";
 import { productsData } from "./api/Api.js";
 import Product from "./components/Product.js";
+import Login from "./pages/Login.js";
 
 const Layout=()=>{
   return(
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path:"/cart",
         element:<Cart/>
+      },
+      {
+        path: "/login",
+        element: <Login/>
       }
     ],
   },

@@ -34,7 +34,7 @@ const Footer = () => {
         <div>
           <div>
           <h2 className="text-2xl font-semibold text-white mb-4">
-             locate us
+             localização
             </h2>
             <p>Rio de Janeiro,RJ, Centro</p>
             <p>Telefone: 21 9999-99999</p>
@@ -44,20 +44,20 @@ const Footer = () => {
         </div>
         <div>
         <h2 className="text-2xl font-semibold text-white mb-4">
-             profile
+             perfil
             </h2>
 
        
-            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><BsPersonFill/></span>my account</p>
-            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><FaPaypal/></span>checkout</p>
-            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><FaHome/></span>order tracking</p>
-            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><MdLocationOn/></span>help & support</p>
+            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><BsPersonFill/></span>minha conta</p>
+            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><FaPaypal/></span>pagamento</p>
+            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><FaHome/></span>pedidos</p>
+            <p className="flex items-center gap-3 hover:text-white duration-300 cursor-pointer"> <span><MdLocationOn/></span>ajuda e suporte</p>
         </div>
 
 
        <div className="flex flex-col justify-center">
         <input type="text" className="bg-transparent border px-4 py-2 text-sm" placeholder="e-mail"/>
-        <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">Subscribe</button>
+        <button className="text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black">Escrever</button>
        </div>
 
       </div>
